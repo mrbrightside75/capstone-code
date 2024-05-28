@@ -1,0 +1,44 @@
+:root {
+    --haiti: #0b132b;
+    --cloudBurst: #1c2541;
+    --fiord: #3a506b;
+    --fountainBlue: #5bc0be;
+    --darkFountainBlue: #407a79;
+}
+.container-fluid {
+    padding: 0px;
+}
+body {
+    background-color: var(--fiord);
+}
+header {
+    padding: 5px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+#search {
+    input {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+}
+#content {
+    padding: 18px;
+}
+#demographicMenu {
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#caseMenu {
+    background-color: white;
+}
+.caseMenuItem {
+    color: white;
+    background-color: var(--fiord);
+    margin: 10px 10px 5px 10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,27 @@
+:root {
+    --haiti: #0b132b;
+    --cloudBurst: #1c2541;
+    --fiord: #3a506b;
+    --fountainBlue: #5bc0be;
+    --darkFountainBlue: #407a79;
+}
+.container-fluid {
+    padding: 0px;
+}
+body {
+    background-color: var(--fiord);
+}
+header {
+    padding: 5px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+#content {
+    padding: 18px;
+}
+#demographicMenu {
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}

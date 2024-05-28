@@ -1,0 +1,31 @@
+:root {
+    --haiti: #0b132b;
+    --cloudBurst: #1c2541;
+    --fiord: #3a506b;
+    --fountainBlue: #5bc0be;
+    --darkFountainBlue: #407a79;
+}
+.navbar-brand img {
+    height: 50px;
+}
+.navbar {
+    background-color: var(--cloudBurst) !important;
+    .navbar-nav {
+        margin-right: auto;
+    }
+}
+nav {
+    font-size: 23px;
+    a {
+        color: white !important;
+        padding-left: 10px !important;
+    }
+    .navbar-toggler,
+    .navbar-toggler-icon-bg {
+        color: var(--fiord) !important;
+    }
+    button {
+        margin-left: 10px;
+        background-color: var(--fiord) !important;
+    }
+}
