@@ -52,7 +52,7 @@ header {
     padding-top: 5px;
 }
 .caseMenuItem {
-    color: #1c2541;
+    color: var(--cloudBurst);
     background-color: #d9d9d9;
     margin: 10px 10px 5px 10px;
     border-radius: 8px;
