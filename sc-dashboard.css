@@ -7,10 +7,9 @@
 }
 .container-fluid {
     padding: 0px;
-}
-body {
     background-color: var(--fiord);
 }
+
 header {
     padding: 5px;
     margin-top: 15px;
