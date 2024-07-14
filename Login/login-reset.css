@@ -1,0 +1,41 @@
+:root {
+  --haiti: #0b132b;
+  --cloudBurst: #1c2541;
+  --fiord: #3a506b;
+  --fountainBlue: #5bc0be;
+  --darkFountainBlue: #407a79;
+}
+body {
+  background-color: var(--fiord);
+}
+.whiteWindow {
+  background-color: white;
+  margin: 1%;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 80px;
+  text-align: center;
+}
+hr {
+  border: 3px solid var(--fountainBlue);
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: 1;
+  margin-bottom: 8%;
+}
+p {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10%;
+}
+.btn-custom {
+  background-color: var(--fountainBlue);
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+.btn-custom:hover {
+  background-color: var(--darkFountainBlue);
+}
