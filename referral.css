@@ -1,0 +1,17 @@
+:root {
+  --haiti: #0b132b;
+  --cloudBurst: #1c2541;
+  --fiord: #3a506b;
+  --fountainBlue: #5bc0be;
+  --darkFountainBlue: #407a79;
+}
+.container-fluid{
+  background-color: var(--fiord);
+}
+
+.whiteBox{
+  background-color: white;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 10px;
+}
